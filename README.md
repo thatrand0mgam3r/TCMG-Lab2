@@ -1,5 +1,7 @@
 # TCMG-Lab2
 
+#Very Important: Do not update or commit changes without running through branches and testing to ensure no breaks will occur.
+
 ###The code in git hub is a test of collaboration and how to properly use the builtin systems to create a group porject/website and how to properly test how open communications could work in devops team.
 
 ###Each member will have some form of website or collaborative site in which they team up with a partner. 
