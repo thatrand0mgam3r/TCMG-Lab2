@@ -1,3 +1,4 @@
+theme: slate
 # TCMG-Lab2
 
 #Very Important: Do not update or commit changes without running through branches and testing to ensure no breaks will occur.
