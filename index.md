@@ -4,7 +4,7 @@
 Howdy, My name is Luis Morales
 I am the current acting leader for this second lab. In order to get this to work I spent more hours than I'd like to admit working figuring the ins and outs of github. However, If your reading this then the website worked. Also since we could not display it all proper last time here is all the team in pictures and more about us. By the way I'm the one on the far right on the skirt of the M4 Sherman "Cheyanne" 
 </p>
-<img src="tank.jpg" alt="Me on a tank" style="width:300px;height:300px;">
+<img src="tank.jpg" alt="Me on a tank" style="width:200;height:300px;">
 
 
 <p>
