@@ -1,3 +1,9 @@
+Howdy, My name is Luis Morales
+I am the current acting leader for this second lab. In order to get this to work I spent more hours than I'd like to admit working figuring the ins and outs of github. However, If your reading this then the website worked. Also since we need an image here rev biting that sorority girl from ages back.
+
+(insert rev here)
+
+
 
 Hi! My name is Nhat-Tien Nguyen. I am junior technology management major at Texas A&M Univserity. I am from New Orleans, Louisiana but moved to Houston in 2005 after hurricane Katrina. Some of my hobbies include listening to music, watching football, and building custom keyboards. Building custom keyboards is one of my newest hobbies that I have dived in to recently because the customizability and freedom to design your own tool that you use everyday has excited me. 
 
