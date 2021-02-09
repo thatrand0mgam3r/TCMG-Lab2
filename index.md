@@ -7,3 +7,7 @@ I am from Leander, Texas where I graduated from Leander High School.
 Some Hobbies of mine include playing competitive volleyball, hanging out with family and friends, and playing with my dogs.
 I ordered my Aggie Ring this semester and am looking forward to the weekend of April 9th-10th.
 
+Howdy! My name is Alondra Gonzalez
+I am a Senior Technology Management  I plan to graduate December 2021. 
+My favorite Hobby Is Dancing all kinds of styles but mainly Hiphop, jazz, contemporary.
+I have been dancing for many years but recently stoped when I got to college I hope to start dancing again once I graduate because I will be able to  have more time on my hands.
