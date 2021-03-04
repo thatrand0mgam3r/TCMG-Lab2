@@ -1,10 +1,16 @@
-Howdy, if youre reading this then you managed to be one of the few people who actually reads the readme files.
+Howdy if you are reading this then let me explain what scripts will do what.
 
-Thanks for taking the time to read this instead of scrolling past.
+<p>The scripts for this lab are as follows: DivideMotn.py, MinMax.py, Monthly.py, Redirected.py, Weekly.py, unsuccessful.py and Parsing_Files.py</p>
 
-The project was a tad difficult but by watching the assigned videos and doing plenty of my own research I was able to help my team by setting up the page we used.
-From there I added each team member and discussed what we would be doing and how we would do it, before each member was able to use slack (i started this before the assignment was assigned as to get a bit ahead and make room for error), and we made a seperate branch for every patch.
+The functions are as follows:
 
-We started by testing if every person could add content to a test-environment, and once i could see they were able to we would then merge their work to the main branch. Each member was able to add on what the others had done and we would decide on how to format the page as a whole. We then decided why not add pcitures and info from the first assignment and actually display it on a properly working website, unlike last time.
+<ul>
+  <li>DivideMonth.py: will seperate file into 12 files based on months, and will put data into each of thier respepctive month.</li>
+  <li>MinMax.py: will tell the user the most common and least common requested files</li>
+  <li>Monthly.py: will display the amount of files requested by month.</li>
+  <li>Redirected.py: is hold over from last lab but will show occurences from 1994 and 1995 and will download the file should the txt be missing</li>
+  <li>Weekly.py: counts the amount of files requested by week for both years</li>
+  <li>unsuccessful.py: will count the amount of times that that requests were unsuccessful</li>
+  <li>Parsing_Files.py: will count the amount of 300 type of requests were made.
+</ul>
 
-Now, if you wish to find the page from this read me file please follow the link here...https://thatrand0mgam3r.github.io/TCMG-Lab2/
