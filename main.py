@@ -14,24 +14,24 @@ app = Flask(__name__)
     return f"Output is: {fib}."
 
 
-@app.route('/slack_alert/'<str:message>)
-    def info(message):
+@app.route('/slack_alert/'<str:msg>)
         wekbook_url = 'https://hooks.slack.com/services/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'
-
-        data = {
-            'text': f'{message}.',
-            'username': 'Test-bot',
-            'icon_emoji': ':ghost:'
-        }
-
-        response = requests.post(wekbook_url, data=json.dumps(
-            data), headers={'Content-Type': 'application/json'})
-
-        print('Response: ' + str(response.text))
-        print('Response code: ' + str(response.status_code))
-        return jsonify()
-
-
+    def slack_alert(msg):
+        data = {'text':msg}
+        resp = requests.post(SLACK_URL, json=data)
+        if resp.status_code == 200:
+            result = True
+            mesg = "Post Accepted"
+        else: # gives the error and message should the message result in a failure
+            result= False
+            mesg: "Please try again (HTTP error: "str(response.status_code)")
+        
+        return jsonify(#attempts to json the data and give the response code for error.
+            input=msg,
+            message=mesg,
+            output=result
+        ),200 if resp.status_code==200 else 400
+        
 @app.route('/is-prime/<int:num>')
     def is_prime(num):
         if isinstance(num, int):
