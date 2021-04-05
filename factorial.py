@@ -1,12 +1,13 @@
+#from flask import Flask
+#app = FLask (__name__)
+@app.route("factorial/<integer>" 
 def factorial(num):
-    if num == 1:
-            return num
+    factorial=1
+    if num < 0:
+        return jsonify(input=number, output= "Factorial cannot be found for negative number"
+    elif num == 0:
+       return jsonify(input=number, output=1)
     else:
-        return num *factorial(num - 1)
-num = int(input("Input: "))
-if num < 0:
-    print("Factorial cannot be found for negative integer")
-elif num == 0:
-    print("Output: 1")
-else:
-    print("Output:",factorial(num))
+        for i in range(1, number+1)
+            factorial = factorial*i
+       return jsonify(input=number, output=factorial) 
