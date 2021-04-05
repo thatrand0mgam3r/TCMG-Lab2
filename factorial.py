@@ -4,10 +4,10 @@
 def factorial(num):
     factorial=1
     if num < 0:
-        return jsonify(input=number, output="Factorial cannot be found for negative number")
+        return jsonify(input=num, output="Factorial cannot be found for negative number")
     elif num == 0:
-       return jsonify(input=number, output=1)
+       return jsonify(input=num, output=1)
     else:
-        for i in range(1, number+1)
-            factorial = factorial*i
-       return jsonify(input=number, output=factorial) 
+        for i in range(1, num+1):
+           factorial = factorial*i
+       return jsonify(input=num, output=factorial) 
