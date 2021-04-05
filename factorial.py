@@ -4,7 +4,7 @@
 def factorial(num):
     factorial=1
     if num < 0:
-        return jsonify(input=number, output= "Factorial cannot be found for negative number"
+        return jsonify(input=number, output="Factorial cannot be found for negative number")
     elif num == 0:
        return jsonify(input=number, output=1)
     else:
