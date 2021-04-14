@@ -1,0 +1,44 @@
+from fib_test import *
+import math
+from collections import Counter
+
+fib = [0,1]
+result = 0
+n =  int(f'{c}')
+while result < n:
+    result = fib[-1] + fib[-2]
+    if (result < n):
+        fib.append(result)
+if n > 0:
+    print("PASS")
+elif n <= 0:
+    print("ERROR")
+n2 = int(f'{a}')
+while result < n2:
+    result = fib[-1] + fib[-2]
+    if (result < n2):
+        fib.append(result)
+if n2 > 0:
+    print("PASS")
+elif n2 <= 0:
+    print("ERROR")
+
+n3 = int(f'{b}')
+while result < n3:
+    result = fib[-1] + fib[-2]
+    if (result < n3):
+        fib.append(result)
+if n3 > 0:
+    print("PASS")
+elif n3 <= 0:
+    print("ERROR")
+
+n4 = int(f'{d}')
+while result < n4:
+    result = fib[-1] + fib[-2]
+    if (result < n4):
+        fib.append(result)
+if n4 > 0:
+    print("PASS")
+elif n4 <= 0:
+    print("ERROR")
