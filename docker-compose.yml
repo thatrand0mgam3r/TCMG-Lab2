@@ -1,0 +1,13 @@
+version: "3.4"
+services:
+  web:
+    build:
+    ports:
+      -"5000:5000"
+    networks:
+      -redisnet
+  redis:
+    image: redis
+    networks: 
+      -redisnet
+    
