@@ -7,7 +7,7 @@ before install:
   - cd api-tester 
   - docker build -t API_Fibonacci
   - cd ../flask-api
-  - docker build -t lmorales2021/tcmg-412:lastest
+  - docker build -t lmorales2021/final-lab1.0
   - docker-compose up - d
   - docker ps 
 script:
@@ -15,4 +15,5 @@ script:
 
 after_sucess:
   - docker login -u $D_USERNAME -p $D_PASSWORD
-  - docker push lmorales2021/tcmg-412:lastest 
+  - docker push lmorales2021/final-lab1.0
+ 
